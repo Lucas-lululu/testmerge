@@ -1,27 +1,38 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+
 
 Vue.use(VueRouter)
-
-  const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+const routes=[
+    {
+        path:'/index',
+        name:'leftNavigation',
+        component: leftNavigation => require(['../view/leftNavigation.vue'], leftNavigation),
+    },
+    {
+    path:'/roueset',
+    name:'roueset',
+    component: roueset => require(['../components/setUp/roueSet.vue'], roueset)
+    },
+         {
+        path:'/',
+        name:'newBooking',
+        component: newBooking => require(['../components/booking/newBooking.vue'], newBooking)
+        },
+        {
+        path:'/role',
+        name:'roleSetting',
+        component: roleSetting => require(['@/components/setUp/system/roleSetting.vue'], roleSetting)
+        },
+        {
+        path:'/roueSet',
+        name:'roueSet',
+        component: roueSet => require(['@/components/setUp/roueSet.vue'], roueSet)
+        }
 ]
 
-const router = new VueRouter({
-  routes
+const router=new VueRouter({
+    routes
 })
 
 export default router
