@@ -1,0 +1,279 @@
+/* 浮动 */
+.d-flex {
+    display: flex;
+}
+
+/* 字体颜色白色 */
+.font-white {
+    color: #fff;
+}
+/* 新增 复制 查看 订舱进度 */
+.bookingButton {
+    margin-left: 0.5%;
+    border-radius: 1px;
+    height: 28px;
+    cursor: pointer;
+    color: #333333;
+    padding: 0 12px;
+    line-height: 28px;
+    display: inline-block;
+    background: #E9ECF0;
+    font-size: 14px;
+}
+/* 订舱进度 */
+.bookingRate {
+    margin-left: 0.5%;
+    border-radius: 1px;
+    height: 28px;
+    cursor: pointer;
+    color: #333333;
+    padding: 0 12px;
+    line-height: 28px;
+    display: inline-block;
+    background: #E9ECF0;
+    font-size: 14px;
+    background-color: #0542C0;
+    color: white;
+}
+
+.el-main {
+    padding: 0;
+}
+
+/* 下拉选择器的圆角矩形变为0 */
+.el-input__inner{
+    border-radius: 0;
+    padding: 0;
+}
+
+/* 下拉选择器的下拉菜单去除圆角矩形 */
+.el-select-dropdown{
+    border-radius: 0;
+}
+/* 下拉选择器的下拉菜单去除内边距 */
+.el-select-dropdown__list{
+    padding: 0 0;
+}
+/* 尖角透明 */
+.el-popper[x-placement^=bottom] .popper__arrow{
+    opacity: 0;
+}
+/* 下拉菜单距离顶部距离 */
+element.style{
+    top:25px;
+    left:373px;
+}
+/* 下拉菜单选中颜色 */
+dropdown__item.hover, .el-select-dropdown__item:hover{
+    background-color: #0542c0;
+    color:#fff;
+}
+dropdown__item.selected{
+    color: #000000;
+    font-weight: 0;
+}
+.el-select-dropdown__item.selected{
+    color: #606266;
+    font-weight: 400;
+    font-weight: none;
+}
+
+/* .el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+    background-color: #0542C0;
+    color:#fff
+} */
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover {
+    background-color: #0542c0;
+    color:#fff;
+}
+/* 表单居中 */
+.el-input--mini .el-input__inner{
+    text-align: center;
+}
+/* 日期选择器左边小图标 */
+.el-input__prefix{
+    display: none;
+}
+
+
+
+/* 选择框大小 */
+.el-checkbox__inner{
+    width: 28px;
+    height: 28px;
+    /* background-color:rgb(242,242,242) */
+    color:#000;
+    
+}
+/* 选择框颜色和边框颜色 */
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #0542c0;
+    border-color: #2e639a;
+}
+/* 选择框hover */
+.el-checkbox__inner:hover{
+    border:1px solid #0542c0;
+}
+/* 选择框的勾 */
+.el-checkbox__inner::after {
+    box-sizing: content-box;
+    content: "";
+    border: 2px solid #FFF;
+    border-left: 0;
+    border-top: 0;
+    height: 11px;
+    left: 10px;
+    position: absolute;
+    top: 5px;
+    transform: rotate(45deg) scaleY(0);
+    width: 3px;
+    transition: transform .15s ease-in .05s;
+    transform-origin: center;
+}
+.el-input__suffix {
+    right: 0px;
+    transition: all 0;
+}
+/* 搜索栏 */
+.serach{
+    height: 27px;
+    margin-right: 5px;
+    width: 16%;
+    font-size: 12px;
+    float: right;
+    box-sizing: border-box;
+    border: 1px solid #E9ECF0;
+    text-align: center;
+}
+.serach:disabled{
+    background-color: #f2f2f2;
+}
+.serach:focus{
+    border:1px solid #0542c0;
+}
+/* 搜索按钮 */
+.searchButton{
+    border-radius: 1px;
+    height: 27px;
+    cursor: pointer;
+    padding: 0 12px;
+    line-height: 27px;
+    display: inline-block;
+    font-size: 14px;
+    background: #E9ECF0;
+    color: black;
+}
+/* 单选框前的字 */
+.checksData{
+    margin-top:4px ;
+}
+
+.mar-5{
+    margin-right:5px;
+}
+/* 表单禁用的背景色 */
+.el-input.is-disabled .el-input__inner:disabled{
+    background-color: #f2f2f2;
+}
+/* 日期的左右内边距 */
+.el-input--prefix .el-input__inner {
+    padding-left: 0px;
+}
+.el-input--suffix .el-input__inner {
+    padding-right: 0px;
+}
+
+
+/* 表格的标题居中 */
+.el-table th>.cell {
+
+    padding-left: 0;
+    padding-right: 0px;
+    text-align: center;
+
+}
+.el-input__inner:disabled {
+color: #001d56;
+}
+/* 表格内容居中 */
+.el-table .cell {
+    text-align: center;
+}
+/* 表格内容去除内边距 */
+.el-table td, .el-table th {
+    padding: 0px 0;
+}
+/* 表格内容宽度 */
+.el-table td, .el-table th {
+    height: 41px;
+}
+/* 表格内容里面的宽度 */
+.el-table .cell {
+    height: 31px;
+    line-height: 31px;
+}
+/* 去除表头阴影 */
+.el-table__fixed, .el-table__fixed-right {
+    box-shadow: none ;
+}
+/* 去除表格固定头的底部边框 */
+.el-table__fixed-right::before, .el-table__fixed::before{
+    height: 0px;
+}
+/* 左边导航栏白色部分高度100% */
+.el-menu {
+    height: 100%;
+}
+/* 点击之后新增的导航条 */
+.el-tabs--card>.el-tabs__header .el-tabs__nav {
+    border-radius:0;
+}
+/* 鼠标放上去为黑色 */
+.el-tabs__item:hover {
+
+}
+.el-tabs__item{
+    padding:0 15px;
+    height:40px;
+    width:117px;
+}
+/* 文字居中 */
+.el-tabs--card>.el-tabs__header .el-tabs__nav{
+    text-align: center;
+}
+/* 点击之后的边框 */
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active {
+border-top-color:#0542c0;
+border-bottom-color:#fff;
+}
+/* 边框旁边的× */
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active.is-closable .el-icon-close{
+    width:18px;
+}
+.el-tabs--card>.el-tabs__header .el-tabs__item .el-icon-close{
+    height:18px;
+    margin-left:8px;
+}
+.el-tabs__item .el-icon-close{
+    border-radius: 0;
+
+}
+.el-tabs__item .el-icon-close:hover {
+    background-color: red;
+    color: #FFF;
+}
+.el-tabs__item .el-icon-close:before {
+    margin-top:1px;
+}
+/* 表格的头部颜色 */
+.el-table th, .el-table tr:nth-child(0){
+    background: #f2f2f2;
+}
+/* 表格头部文字颜色 */
+.el-table thead {
+    color: #000000;
+}
+
+
+
+

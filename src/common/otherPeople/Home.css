@@ -1,0 +1,55 @@
+.carddiv{
+	width: 100%;
+}
+.carddivchild3{
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+.carddivchild3 span{
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20%;
+}
+.layui-card:hover{
+	border: 1px solid royalblue;
+	box-shadow: royalblue 1px 1px 1px;
+	cursor: pointer;
+}
+.carddivchild7{
+	width: 12%;
+	height: 100%;
+	float: left;
+}
+.carddivchild77{
+	width: 12%;
+	height: 100%;
+	float: left;
+	margin-left: 2%;
+}
+
+.carddivchild7 span:nth-child(-n+3){
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: left;
+	margin-top: 30%;
+}
+.span5:nth-child(odd){
+	display: block;
+	font-size: 16px;
+	text-align: right;
+	font-weight: 600;
+	margin-top: 7%;
+}
+.span5:nth-child(even){
+	display: block;
+	font-size: 16px;
+	text-align: right;
+	margin-top: 5%;
+}
+.titlename{
+	font-size: 18px;
+	font-weight: bold;
+}
