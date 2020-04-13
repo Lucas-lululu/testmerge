@@ -1,0 +1,124 @@
+<template>
+  <div>
+    <div>logo</div>
+    <div>宁波黑吾士汽车美容有限公司</div>
+    <!-- 法人表格 -->
+    <ul>
+      <li>
+        法人代表:
+        <span>陈捷</span>
+      </li>
+      <li>
+        法人联系方式:
+        <span>xxxxxxx</span>
+      </li>
+      <li>
+        邮箱：
+        <span>54678978@567.com</span>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        中文名：
+        <span>宁波黑吾士汽车美容有限公司</span>
+      </li>
+      <li>
+        企业类型：
+        <span>下拉选</span>
+      </li>
+      <li>
+        所在国家：
+        <span>下拉选</span>
+      </li>
+      <li>
+        所在省份：
+        <span>下拉选</span>
+      </li>
+      <li>
+        所在城市：
+        <span>下拉选</span>
+      </li>
+      <li>
+        简称（系统识别简称）：
+        <input type="text" />
+        <span>修改</span>
+      </li>
+      <li>
+        英文名：
+        <span>hey54</span>
+      </li>
+      <li>
+        社会统一信用编码：
+        <span>900000000000000000000</span>
+      </li>
+      <li>
+        海关十位编码：
+        <span>123456789</span>
+      </li>
+      <li>
+        中文地址：
+        <span>浙江省宁波市</span>
+      </li>
+      <li>
+        英文地址：
+        <span>helle world</span>
+      </li>
+      <li>
+        特定编码：
+        <span>56142</span>
+      </li>
+      <li>
+        邮政编码：
+        <span>3333333</span>
+      </li>
+      <li>
+        邮箱：
+        <span>454654654@564.com</span>
+      </li>
+      <li>
+        电话：
+        <span>45648652</span>
+      </li>
+      <li>
+        传真：
+        <span>243254345</span>
+      </li>
+      <li>
+        法人代表：
+        <span>陈捷</span>
+      </li>
+      <li>
+        法人联系方式：
+        <span>1333333333</span>
+      </li>
+      <li>
+        法人身份证：
+        <span>3216549865646546</span>
+      </li>
+      <li>
+        企业网址：
+        <span>www.baidu.com</span>
+      </li>
+      <li>
+        续存状态：
+        <span>续存</span>
+      </li>
+      <li>
+        注册资本：
+        <span>100W</span>
+      </li>
+      <li>
+        注册日期：
+        <span>2018-0508</span>
+      </li>
+    </ul>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+</style>

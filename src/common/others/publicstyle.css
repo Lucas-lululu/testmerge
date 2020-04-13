@@ -1,0 +1,390 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+input::-ms-input-placeholder {
+	text-align: center;
+}
+
+input::-webkit-input-placeholder {
+	text-align: center;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-size: 14px;
+	font-family: "微软雅黑" !important;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.tdspan {
+	color: #A2A2A2;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.inline-div {
+	width: 50%;
+	text-align: left;
+	margin-left: 8%;
+}
+
+.spanKong {
+	display: inline-block;
+	width: 3px;
+	height: 16px;
+	background: royalblue;
+	position: relative;
+	top: 3px;
+}
+
+/* input {
+	outline: none;
+	font-family: "微软雅黑";
+	padding: 0 5px;
+	height: 23px !important;
+	border: 0;
+} */
+
+input[type=checkbox] {
+	position: relative;
+	top: 2px;
+	width: 15px;
+	height: 15px;
+}
+
+table tr td .inlineTime {
+	width: 200px;
+	height: 31px;
+}
+
+.textareaStatus {
+	width: 450px;
+	height: 96%;
+	border: 1px solid #E5E5E5;
+}
+
+.selectStatus {
+	width: 100%;
+	height: 100%;
+}
+
+.tabChanges1 table td .Width103 {
+	width: 200px;
+}
+
+select {
+	text-indent: 10px;
+	outline: none;
+	color: rgb(5, 66, 192);
+	border: none !important;
+	font-family: "微软雅黑";
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	padding-right: 10px;
+}
+
+.tabChanges1 table td .inline-input1 {
+	width: 200px;
+	height: 31px;
+	padding: 0;
+	cursor: default;
+}
+
+.tabChanges1 table td .inline-input1:focus {
+	border: 1px solid white;
+}
+
+.changeArrow {
+	background: url(../img/selectUp.png) no-repeat scroll 95% center rgb(235, 240, 250);
+}
+
+/*  清除ie浏览器的下拉箭头样式 */
+select::-ms-expand {
+	display: none;
+}
+
+select:hover {
+	background-color: RGBA(205, 217, 242, 1);
+}
+
+option {
+	background: white !important;
+	display: inline-block;
+	padding: 5px 0;
+}
+
+option:hover {
+	background: RGBA(5, 66, 192, 1) !important;
+}
+
+.pareCon {
+	margin-left: 2%;
+	border-radius: 1px;
+	height: 27px;
+	cursor: pointer;
+	color: #333333;
+	padding: 0 12px;
+	line-height: 27px;
+	display: inline-block;
+	background: #E9ECF0;
+	font-size: 14px;
+}
+
+.danger-btn {
+	margin-left: 15px;
+	border-radius: 1px;
+	height: 27px;
+	cursor: pointer;
+	color: white;
+	padding: 0 12px;
+	line-height: 27px;
+	display: inline-block;
+	background: #bf1515;
+	font-size: 14px;
+}
+
+.aColor {
+	color: #003CC8;
+}
+
+
+/* 提交按钮 */
+.submitBtn {
+	display: block;
+	margin: auto;
+	width: 28px;
+	background: #003CC8 !important;
+	color: white;
+}
+
+.label_dg {
+	margin: 0 10px;
+	color: royalblue;
+}
+
+.numInfo {
+	position: relative;
+	top: 1px;
+}
+
+
+input:focus {
+	border: 1px solid #003CC8 !important;
+}
+
+#formtab table .systemHod:focus {
+	border: 1px solid white !important;
+}
+
+.layui-form .input-left .input-num {
+	width: 100%;
+}
+
+.input-left {
+	width: 40%;
+	float: left;
+}
+
+tr td .layui-form .input-right {
+	width: 40%;
+	float: left;
+	margin-left: 30px;
+}
+
+.tabChanges1 table tr td .input-inline {
+	margin-left: 10px;
+	width: 100%;
+}
+
+.tabChanges1 table tr td .input-inline .input-inline-text {
+	width: 70%;
+	cursor: pointer;
+}
+
+textarea {
+	resize: none;
+}
+
+.cube {
+	display: inline-block;
+	width: 3px;
+	height: 16px;
+	background: royalblue;
+	position: relative;
+	top: 3px;
+	margin-right: 5px;
+}
+
+.statusbody {
+	margin-top: 70px;
+}
+
+.layui-tab-item table {
+	margin-top: 15px;
+}
+
+.searchInput {
+	border: 1px solid #E9ECF0;
+	text-align: center;
+}
+
+body div .searchInput-List {
+	border: 1px solid #E9ECF0;
+	width: 16%;
+	height: 27px;
+	float: right;
+	/* margin-left: 13.5%; */
+	text-align: center;
+}
+
+.input-list {
+	width: 20%;
+	height: 25px;
+	border: 1px solid #E5E5E5;
+	margin-left: 13.5%;
+}
+
+.header .sm-input,.tabChanges1 table td .sm-input {
+	width: 99px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.header .xs-input,.tabChanges1 table td .xs-input {
+	width: 99px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.header .searchTimeLeft {
+	width: 10%;
+	margin-right: 3px;
+	text-align: center;
+}
+
+.header .searchTimeRight {
+	width: 10%;
+	margin-left: 3px;
+	text-align: center;
+}
+
+.Time- {
+	float: right;
+	margin-top: 5px;
+}
+
+.header .checkBox-list {
+	width: 18px;
+	height: 18px;
+	top: 6px;
+}
+
+.selectDisable {
+	color: white;
+	background-color: #E5E5E5;
+}
+
+.mutltiBox {
+	width: 200px;
+	box-sizing: border-box;
+	height: 100%;
+	border: 1px solid #E5E5E5;
+}
+
+.td-width-5,
+.tabChanges1 table .td-width-5 {
+	width: 10%;
+}
+
+.td-width-10,
+.tabChanges1 table .td-width-10 {
+	width: 10%;
+}
+
+.td-width-15,
+.tabChanges1 table .td-width-15 {
+	width: 15%;
+}
+
+.td-width-20,
+.tabChanges1 table .td-width-20 {
+	width: 20%;
+}
+
+.td-width-30,
+.tabChanges1 table .td-width-30 {
+	width: 30%;
+}
+
+.td-width-40,
+.tabChanges1 table .td-width-40 {
+	width: 40%;
+}
+
+.td-width-50,
+.tabChanges1 table .td-width-50 {
+	width: 50%;
+}
+
+.td-width-90,
+.tabChanges1 table .td-width-90 {
+	width: 90%;
+}
+
+.textareaboxG {
+	width: 300px;
+	height: 200px;
+	overflow-y: hidden;
+	margin-top: 10px;
+	border: 1px solid #E5E5E5;
+}
+
+.secondBox {
+	float: left;
+	margin-left: 100px;
+}
+
+.spanTitle {
+	margin-top: 10px;
+}
+
+form input,
+select {
+	width: 200px;
+	height: 31px;
+	box-sizing: border-box;
+	/* padding: 0 7px; */
+	border: 1px solid #E5E5E5;
+	text-align: center;
+}
+
+input:disabled,
+select:disabled,
+table tr td input:readonly {
+	background-color: white;
+	border: 0;
+}
+
+.tabChanges1 table .width4-5{
+	width: 4.5%;
+}
+
+.tabChanges1 table .width4-2{
+	width: 4.6%;
+}
